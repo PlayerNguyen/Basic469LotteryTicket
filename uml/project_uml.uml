@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.playernguyen.helper.MathHelper</OriginalElement>
+  <nodes>
+    <node x="212.0" y="809.0">com.github.playernguyen.helper.MathHelper</node>
+    <node x="214.0" y="282.0">com.github.playernguyen.game.AnalyseGame</node>
+    <node x="404.0" y="427.0">com.github.playernguyen.game.GameRollEngine</node>
+    <node x="709.0" y="427.0">com.github.playernguyen.player.Player</node>
+    <node x="86.0" y="0.0">com.github.playernguyen.game.Game</node>
+    <node x="0.0" y="282.5">com.github.playernguyen.game.SingleGame</node>
+    <node x="0.0" y="809.0">com.github.playernguyen.Main</node>
+    <node x="73.25" y="427.0">com.github.playernguyen.ticket.Ticket</node>
+    <node x="168.0" y="709.0">com.github.playernguyen.ticket.BetTicket</node>
+    <node x="0.0" y="721.5">com.github.playernguyen.ticket.PlayerTicket</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.playernguyen.game.AnalyseGame" target="com.github.playernguyen.game.Game" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="374.0" y="257.0" />
+      <point x="235.5" y="257.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="com.github.playernguyen.game.SingleGame" target="com.github.playernguyen.game.Game" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="97.0" y="257.0" />
+      <point x="235.5" y="257.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="com.github.playernguyen.ticket.PlayerTicket" target="com.github.playernguyen.ticket.Ticket" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="74.0" y="684.0" />
+      <point x="168.75" y="684.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="com.github.playernguyen.ticket.BetTicket" target="com.github.playernguyen.ticket.Ticket" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="263.5" y="684.0" />
+      <point x="168.75" y="684.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7122381477398015" showDependencies="false" x="442.0" y="443.5" />
+  <SelectedNodes>
+    <node>com.github.playernguyen.game.Game</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
